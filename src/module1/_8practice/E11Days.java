@@ -6,8 +6,8 @@ public class E11Days {
 	//whole days in 320893 seconds but there are errors. Fix them!
     public static void main(String[] args) {
         int numSecs = 320893;
-        int numHours = numSecs   3600;
-        int numDays = numHours   24;
-        System.out.println numDays);
-
+        double numHours = numSecs / 3600.0;
+        double numDays = numHours / 24;
+        System.out.println((int)(numDays));
+    }
 }

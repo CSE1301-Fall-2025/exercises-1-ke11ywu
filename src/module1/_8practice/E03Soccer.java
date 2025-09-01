@@ -7,10 +7,8 @@ public class E03Soccer {
 	
 	//but there are errors. Fix them!
     public static void main(String[] args) {
-        String name "Gabby";
-        String sport = "soccer;
-        System.out.println(Name +
-                           "'s favorite sport is "
-                           sport);
+        String name = "Gabby";
+        String sport = "soccer";
+        System.out.println(name + "'s favorite sport is " + sport);
     }
 }

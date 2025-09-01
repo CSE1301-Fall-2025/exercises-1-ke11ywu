@@ -7,6 +7,9 @@ public class E02Triangle {
 	//Your solution must contain at least one multiplication 
 	//and one division.
 	public static void main(String[] args) {
-
+		int base = 7;
+		int height = 9;
+		double area = (1.0 / 2) * base * height;
+		System.out.println("Area: " + area);
 	}
 }
