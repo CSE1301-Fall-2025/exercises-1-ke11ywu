@@ -8,7 +8,7 @@ public class E02TestMidterm {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Did you pass the midterm exam?");
+		System.out.println("Did you pass the midterm exam? (true/false)");
 
 		boolean passedExam = scan.nextBoolean();
 		if (passedExam) {

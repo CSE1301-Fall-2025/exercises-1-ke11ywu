@@ -5,12 +5,16 @@ public class E04DanglingElseTest {
 	//and see that it does not work properly. Add {} to the code
 	//so that it does function properly.
 	public static void main(String[] args) {
-		boolean sunny = true;
-		boolean hot = false;
-		if (sunny)
-			if (hot)
+		boolean sunny = false;
+		boolean hot = true;
+		// System.out.println("sunny=" + sunny);
+		// System.out.println("hot=" + hot);
+		if (sunny) {
+			if (hot) {
 				System.out.println("Head for the beach!");
-		else // Which if is else attached to??
+			}
+		} else {
 			System.out.println("Bring your umbrella!");
+		}
 	}
 }
