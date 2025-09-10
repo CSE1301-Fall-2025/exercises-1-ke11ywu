@@ -11,5 +11,11 @@ public class E22NumberTriangle {
 	
 	//Use loops to accomplish this!
     public static void main(String[] args) {
+		String number;
+		for (int i = 5; i >= 1; i--){
+			number = String.valueOf(i);
+			String repeatedNumber = number.repeat(i);
+			System.out.println(repeatedNumber);
+		}
     }
 }

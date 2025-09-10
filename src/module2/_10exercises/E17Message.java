@@ -7,6 +7,14 @@ public class E17Message {
     //The loop body should print the message and then use substring to create a new message without the last character.  
 
     public static void main(String[] args) {
+        String message = "hello world";
+        String messageShortened = "";
+        int i = message.length();
 
+        while (i > 0){
+            System.out.println(messageShortened);
+            messageShortened = message.substring(0,i-1);
+            i--;
+        }
     }
 }

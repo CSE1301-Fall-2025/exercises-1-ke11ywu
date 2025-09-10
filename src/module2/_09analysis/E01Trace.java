@@ -9,6 +9,8 @@ public class E01Trace {
         int var2 = 2;
 
         while ((var2 != 0) && ((var1 / var2) >= 0)) {
+            // System.out.println("var1=" + var1);
+            // System.out.println("var2=" + var2);
             var1 = var1 + 1;
             var2 = var2 - 1;
         }

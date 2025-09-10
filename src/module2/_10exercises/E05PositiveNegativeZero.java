@@ -7,6 +7,10 @@ public class E05PositiveNegativeZero {
 		int x = -3;
 		if (x > 0) {
 			System.out.println("x is less than 0");
+		} else if (x < 0) {
+			System.out.println("x is less than 0");
+		} else if (x == 0) {
+			System.out.println("x is equal to 0");
 		}
 	}
 }

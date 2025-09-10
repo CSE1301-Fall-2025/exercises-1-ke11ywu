@@ -6,9 +6,9 @@ public class E13Errors3 {
 	//but there are errors. Fix them.
     public static void main(String[] args) {
         int x = 10;
-        while (x >= 0) {
-           x--;
+        while (x > 0) {
            System.out.println(x);
+           x--;
         }
     }
 }

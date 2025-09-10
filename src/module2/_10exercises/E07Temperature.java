@@ -7,6 +7,14 @@ public class E07Temperature {
 	//"it is nice out" if the temp is below 90, or "it is hot" if it is 90 or above
     public static void main(String[] args) {
         int temp = 100;
-
+        if (temp < 30) {
+            System.out.println("it is freezing");
+        } else if (temp < 50) {
+            System.out.println("It is cold");
+        } else if (temp < 90) {
+            System.out.println("it is nice out");
+        } else {
+            System.out.println("it is hot");
+        }
     }
 }
