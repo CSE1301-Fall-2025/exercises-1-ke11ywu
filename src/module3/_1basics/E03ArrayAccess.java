@@ -19,10 +19,13 @@ public class E03ArrayAccess {
 		highScores[1] = 98;
 		highScores[2] = 98;
 		highScores[3] = 88;
-		highScores[4] = 68;
+		highScores[4] = 97;
 
 		// Print first highScore at index 0
-		System.out.println( highScores[0] );
+		System.out.println(highScores[0]);
+		// Print third highschore at index 2
+		System.out.println(highScores[2]);
+		System.out.println(highScores[7]); // out of bounds error
 
 	}
 }

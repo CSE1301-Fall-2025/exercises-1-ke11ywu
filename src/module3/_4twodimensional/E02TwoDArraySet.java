@@ -26,9 +26,32 @@ public class E02TwoDArraySet {
 		seatingChart[2][0] = "Emma";
 		seatingChart[2][1] = "Luke";
 
-		// print the contents
-		System.out.println(ticketInfo);
-		System.out.println(seatingChart);
+		// print the contents --- these don't actually work because arrays are considered
+		// objects in java. when the print command is called, the computer will convert the
+		// array's contents to a string using the array.toString() method and print that instead.
+		// System.out.println(ticketInfo);
+		// System.out.println(seatingChart);
+
+        System.out.println("Ticket Info:");
+        for (int i = 0; i < ticketInfo.length; i++) {
+            // Inner loop iterates through the columns of the current row
+            for (int j = 0; j < ticketInfo[i].length; j++) {
+                System.out.print(ticketInfo[i][j] + " ");
+            }
+            // Move to the next line after printing a row
+            System.out.println();
+        }
+
+        System.out.println("\nSeating Chart:");
+        // Outer loop iterates through the rows
+        for (int i = 0; i < seatingChart.length; i++) {
+            // Inner loop iterates through the columns of the current row
+            for (int j = 0; j < seatingChart[i].length; j++) {
+                System.out.print(seatingChart[i][j] + " ");
+            }
+            // Move to the next line after printing a row
+            System.out.println();
 	}
+}
 }
 

@@ -11,6 +11,15 @@ public class E02EvenLoop {
 				System.out.println(values[i] + " is even!");
 			}
 		}
+
+		System.out.println("break");
+
+		for (int n : values){
+			if (n % 2 == 0) {
+				System.out.println(n + " is even!");
+			}
+		}
+
 	}
 }
 
