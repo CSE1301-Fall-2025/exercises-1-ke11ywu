@@ -8,6 +8,7 @@ public class E10Count7 {
 		int[][] array = { {4,7,8},{8,8,7} };
 
 		//ADD CODE HERE
+		
 
 	}
 }

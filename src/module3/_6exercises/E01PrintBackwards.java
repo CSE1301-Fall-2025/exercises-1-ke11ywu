@@ -5,8 +5,8 @@ public class E01PrintBackwards {
 	//backwards, but there are errors. Fix them!
     public static void main(String[] args) {
         int[] a1 = {1, 3, 7, 9, 15};
-        for (int i = a1.length; i > 0; i--) {
-            System.out.print(arr[i] + ", ");
+        for (int i = a1.length - 1; i >= 0; i--) {
+            System.out.print(a1[i] + ", ");
         }
     }
 }

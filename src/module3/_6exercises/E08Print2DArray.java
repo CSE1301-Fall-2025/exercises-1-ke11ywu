@@ -9,6 +9,11 @@ public class E08Print2DArray {
 				{"you ", "are "}, {"doing ", "well"} };
 
 		// ADD CODE HERE //
+		for (String[] s : arr){
+			for (String t : s){
+				System.out.print(t);
+			}
+		}
 
 	}
 }

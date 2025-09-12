@@ -7,8 +7,7 @@ public class E05Initialize2DArray {
 	//"Kamal, Maria, Elissa" in the second.
 	public static void main(String[] args) {
 		// ADD CODE HERE //
-
-
+		String[][] students = {{"Brice","Marvin","Anna"},{"Kamal","Maria","Elissa"}};
 		// Should print the values in students in order
 		for (int row = 0; row < students.length; row++) {
 			for (int col = 0; col < students[0].length; col++) {

@@ -5,7 +5,7 @@ public class E012DArrayTraversal {
 	//Exercise 1: What will this print? Use the debugger to step through the code.
 	//What happens if you add another row to the array?
 	public static void main(String[] args) {
-		int[][] a = { {1,2,3},{4,5,6}};
+		int[][] a = { {1,2,3},{4,5,6},{7,8,9}};
 		double total = 0;
 		int value = 0;
 		for (int row = 0; row < a.length; row++) {
