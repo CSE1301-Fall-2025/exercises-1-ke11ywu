@@ -9,6 +9,17 @@ public class E13CreateArray1 {
 	//second row.
     public static void main(String[] args) {
         // ADD CODE HERE //
+		int[][] array = {
+			{1,2,3},
+			{4,5,6}
+		};
+
+		for (int[] i : array){
+			for (int j : i){
+				System.out.print(j + " ");
+			}
+		}
+
     }
 }
 

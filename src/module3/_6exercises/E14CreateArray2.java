@@ -12,6 +12,25 @@ public class E14CreateArray2 {
 	//and so on.
     public static void main(String[] args) {
         // ADD CODE HERE //
+		int[][] array = {
+			{1,2,3},
+			{4,5,6},
+			{7,8,9}
+		};
+
+		for (int[] i : array){
+			for (int j : i){
+				System.out.print(j + " ");
+			}
+		}
+
+		// backwards
+		for (int i = array.length - 1; i >= 0; i--){
+			for (int j = array[i].length - 1; j >= 0; j--){
+				System.out.print(array[i][j] + " "); // print array[i][j] for the value, not just j. this is a standard for loop so you need the array[i][j] to access the values
+			}
+		}
+
     }
 }
 
